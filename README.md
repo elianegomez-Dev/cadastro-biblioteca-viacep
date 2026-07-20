@@ -9,7 +9,7 @@ O **EliBook** é um projeto prático desenvolvido como parte do curso **Full Sta
 Para este projeto, utilizei um conjunto de tecnologias modernas para garantir performance e estética:
 
 * **HTML5 Semântico:** Para uma estrutura de página acessível e bem organizada.
-* **CSS3 : **  * Uso de **Flexbox** e **Grid** para layout responsivo.
+* **CSS3:**  * Uso de **Flexbox** e **Grid** para layout responsivo.
   * **Efeito Neon: ** Estilização com sombras e bordas iluminadas para um visual *Premium Dark*.
   * **Google Fonts:** Integração das fontes *Poppins* (leitura limpa) e *Playfair Display* (elegância clássica).
 * **JavaScript (ES6+):** * **Consumo de API:** Uso de `fetch` e `async/await` para buscar dados do ViaCEP em tempo real.
