@@ -36,6 +36,7 @@ Desenvolver a **EliBook** no curso da **Mais Pra Ti** foi uma experiência incr�
 O meu maior aprendizado foi entender a lógica do **JavaScript assíncrono** ao integrar a **API do ViaCEP**. Ver o sistema conversar com a internet e preencher o endereço na tela em milissegundos abriu a minha mente sobre como os sites funcionam de verdade. Também foi um ótimo desafio dominar o **CSS avançado** para criar o layout responsivo e o efeito neon no formulário. 
 
 No fim, ver o projeto rodando perfeitamente e publicado no GitHub me deu muito orgulho e a certeza de que estou no caminho certo!
+
 ---
 ## 📸 Demonstração do Projeto
 
