@@ -33,4 +33,6 @@ A maior conquista técnica foi a integração com a **API ViaCEP**, que permite 
 ## 📸 Demonstração do Projeto
 
 <img width="1352" height="636" alt="screenshot-1784572481797" src="https://github.com/user-attachments/assets/c9db5ad1-7659-48aa-99a8-1bb90ef23a48" />
-<img width="1331" height="636" alt="Captura de tela_20-7-2026_153644_127 0 0 1" src="https://github.com/user-attachments/assets/9ff939e1-957d-4dd3-86b6-4620e36c1d05" />
+<img width="1328" height="440" alt="Captura de tela_20-7-2026_172625_127 0 0 1" src="https://github.com/user-attachments/assets/3d0c418a-281f-42a5-be02-8b74f164faff" />
+<img width="1334" height="502" alt="Captura de tela_20-7-2026_172720_127 0 0 1" src="https://github.com/user-attachments/assets/79a3c9c8-11a7-4815-97ab-e61c514aa33d" />
+
