@@ -31,7 +31,7 @@ A maior conquista técnica foi a integração com a **API ViaCEP**, que permite 
 ---
 ## 🎯 Meu Desafio e Aprendizado
 
-Desenvolver a **EliBook** no curso da **Mais Pra Ti** foi uma experiência incrível de crescimento. No começo, o projeto deu bastante trabalho, principalmente para entender como estruturar e conectar os arquivos separados (HTML, CSS e JavaScript) e aprender a usar o terminal do Git para subir tudo.
+Desenvolver a **EliBook** no curso da **+Pra Ti** foi uma experiência incrível de crescimento. No começo, o projeto deu bastante trabalho, principalmente para entender como estruturar e conectar os arquivos separados (HTML, CSS e JavaScript) e aprender a usar o terminal do Git para subir tudo.
 
 O meu maior aprendizado foi entender a lógica do **JavaScript assíncrono** ao integrar a **API do ViaCEP**. Ver o sistema conversar com a internet e preencher o endereço na tela em milissegundos abriu a minha mente sobre como os sites funcionam de verdade. Também foi um ótimo desafio dominar o **CSS avançado** para criar o layout responsivo e o efeito neon no formulário. 
 
