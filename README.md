@@ -1,6 +1,6 @@
 # 📚 EliBook - Viva Novas Histórias
 
-O **EliBook** é uma interface moderna de cadastro para bibliotecas digitais, desenvolvida com foco em **experiência do usuário (UX)** e **design sofisticado**. O projeto nasceu da necessidade de criar um fluxo de inscrição rápido, bonito e funcional, utilizando as melhores práticas de desenvolvimento web front-end.
+O **EliBook** é um projeto prático desenvolvido como parte do curso **Full Stack da +Pra Ti**. Trata-se de uma interface moderna de cadastro para bibliotecas digitais, criada do zero para aplicar os conhecimentos adquiridos em desenvolvimento web front-end.
 
 ---
 
