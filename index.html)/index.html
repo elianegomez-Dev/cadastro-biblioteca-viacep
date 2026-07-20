@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eli Book | Viva Novas Histórias</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">📚 Eli Book</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Sua Próxima Aventura Literária Começa Aqui</h1>
+            <p>Cadastre-se na nossa biblioteca para receber recomendações exclusivas e acessar milhares de e-books gratuitos.</p>
+            <a href="#cadastro" class="btn-cta">Inscrever-se</a>
+        </div>
+    </section>
+
+    <main class="container" id="cadastro">
+        <h2 class="section-title">Faça Sua Inscrição</h2>
+        <form id="cadastroForm" onsubmit="enviarFormulario(event)">
+            <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" class="form-control" required placeholder="Seu nome completo">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="form-control" required placeholder="seu@email.com">
+            </div>
+            
+            <div class="form-group">
+                <label for="cep">CEP (Busca Automática via API)</label>
+                <input type="text" id="cep" class="form-control" placeholder="Ex: 01001-000" maxlength="9" onblur="buscarCEP()" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="rua">Rua </label>
+                <input type="text" id="rua" class="form-control" readonly placeholder="Preenchido automaticamente pelo CEP">
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" class="form-control" readonly placeholder="Automático">
+                </div>
+                <div class="form-group">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" class="form-control" readonly placeholder="Automático">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="mensagem">Qual seu gênero literário favorito? (Mensagem)</label>
+                <textarea id="mensagem" class="form-control" rows="3" placeholder="Ex: Ficção Científica, Romance, Negócios..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-cta" style="width: 100%; border-radius: 6px;">Enviar Cadastro</button>
+        </form>
+
+        <div id="mensagemSucesso" class="success-msg">
+             Cadastro realizado com sucesso! Obrigado por se juntar à Eli Book.
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+/* Configurações Gerais (Fundo Preto/Escuro) */
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Poppins', sans-serif; 
+}
+body { 
+    background-color: #090b11; 
+    color: #f0f6fc; 
+    scroll-behavior: smooth; 
+}
+
+/* Cabeçalho */
+header { 
+    background: #111622; 
+    padding: 20px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3); 
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+    border-bottom: 1px solid #1f293d;
+}
+.header-container { 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.logo { 
+    font-size: 22px; 
+    font-weight: bold; 
+    color: #63b3ed; 
+    text-decoration: none; 
+}
+
+/* Banner Principal (Hero) com link de imagem corrigido */
+.hero { 
+    background: linear-gradient(rgba(9, 11, 17, 0.8), rgba(9, 11, 17, 0.85)), 
+                url('https://img.freepik.com/fotos-premium/sala-biblioteca-clasica-libros-viejos-estantes-estanterias-biblioteca-gran-estanteria-lo_1001175-2996.jpg') no-repeat center center;
+    background-size: cover; 
+    padding: 120px 20px; 
+    text-align: center; 
+}
+.hero-content { 
+    max-width: 700px; 
+    margin: 0 auto; 
+}
+.hero h1 { 
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 42px; 
+    color: #ffffff; 
+    margin-bottom: 15px; 
+    text-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    letter-spacing: 0.5px;
+}
+.hero p { 
+    font-size: 18px; 
+    color: #cbd5e0; 
+    margin-bottom: 30px; 
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+.btn-cta { 
+    background-color: #3182ce; 
+    color: white;
+    border: none; 
+    padding: 14px 32px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    text-decoration: none; 
+    display: inline-block; 
+    box-shadow: 0 4px 14px rgba(49, 130, 208, 0.4);
+}
+.btn-cta:hover { 
+    background-color: #4299e1; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 20px rgba(49, 130, 208, 0.6);
+}
+
+/* Formulário de Cadastro em Destaque (Efeito Neon) */
+.container { 
+    max-width: 600px; 
+    margin: 60px auto; 
+    padding: 40px 30px; 
+    background: #111622; 
+    border-radius: 12px; 
+    border: 2px solid #3182ce; 
+    box-shadow: 0 0 25px rgba(49, 130, 206, 0.25); 
+}
+.section-title { 
+    font-size: 26px; 
+    font-family: 'Playfair Display', serif;
+    color: #ffffff; 
+    margin-bottom: 25px; 
+    text-align: center; 
+}
+.form-group { 
+    margin-bottom: 20px; 
+}
+.form-group label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: 500; 
+    font-size: 14px; 
+    color: #a0aec0;
+}
+.form-control { 
+    width: 100%; 
+    padding: 12px; 
+    background-color: #1a202c; 
+    border: 1px solid #2d3748; 
+    border-radius: 6px; 
+    font-size: 14px; 
+    color: #ffffff;
+    transition: 0.2s;
+}
+.form-control::placeholder {
+    color: #718096;
+}
+.form-control:focus { 
+    outline: none; 
+    border-color: #63b3ed; 
+    box-shadow: 0 0 8px rgba(99, 179, 237, 0.4);
+}
+.form-row { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px; 
+}
+
+/* Estilização para campos desabilitados/automáticos da API */
+.form-control[readonly] {
+    background-color: #141923 !important;
+    border-color: #2d3748;
+    color: #a0aec0;
+}
+
+/* Mensagem de Sucesso */
+.success-msg { 
+    display: none; 
+    background-color: #1c4532; 
+    color: #9ae6b4; 
+    padding: 20px; 
+    border-radius: 8px; 
+    text-align: center; 
+    margin-top: 15px; 
+    font-weight: 500; 
+    border: 1px solid #2f855a;
+    box-shadow: 0 0 15px rgba(47, 133, 90, 0.2);
+}
